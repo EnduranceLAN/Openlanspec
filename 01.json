@@ -1151,8 +1151,8 @@
         }
       }
     },
-    "projects":{
-      "description":"Your project sites (links to GitHub, wikis or wherever your projects are hosted)",
+    "tournaments":{
+      "description":"Your tournament sites (links to your website, or challonge, or cybergamer, or anywhere that it's hosted.)",
       "required":false,
       "type":"array",
       "items":{
