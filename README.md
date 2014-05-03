@@ -8,3 +8,7 @@ This API is designed for ease of communication about events, between lan parties
 
 Feel free to fork and issue pull requests.
 
+Websites:
+
+lanapi.net
+lanfed.net

@@ -66,7 +66,12 @@
           "description":"See the <a target=\"_blank\" href=\"https:\/\/LANfed.net\/wiki\/index.php\/Category:Howto\/LANphone\">wiki<\/a>.",
           "required":true,
           "type":"boolean"
-        }
+        },
+        "LANspeak":{
+          "description":"Does your LAN Run a PUBLIC Teamspeak server?",
+          "required":true,
+          "type":"boolean"
+        },
       }
     },
     "cam":{
@@ -194,7 +199,7 @@
           "type":"string"
         },
         "lanadmins":{
-          "description":"Persons who carry a key and are able to open the LAN upon request. One of the fields irc_nick, phone, email or twitter must be specified.",
+          "description":"Persons help run the LAN party.",
           "required":false,
           "type":"array",
           "minItems":1,
