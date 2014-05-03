@@ -1,9 +1,5 @@
-var apienv;
-
-$(document).ready(function () {
-
-    var specs1 = {
- "description":"LANAPI 0.1",
+{
+  "description":"LANAPI 0.1",
   "type":"object",
   "properties":{
     "api":{
@@ -1243,7 +1239,3 @@ $(document).ready(function () {
 	}
   }
 }
-
-    apienv = JSV.createEnvironment("json-schema-draft-01");
-    apienv.createSchema(specs8, undefined, "http://lanapi.net/specs1");
-});
