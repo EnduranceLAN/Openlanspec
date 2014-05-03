@@ -292,12 +292,12 @@
           "type":"string"
         },
         "jabber":{
-          "description":"A public Jabber\/XMPP multi-user chatroom in the form <samp>chatroom@conference.example.net<\/samp>",
+          "description":"A public Jabber\/XMPP multi-user chat room in the form <samp>chatroom@conference.example.net<\/samp>",
           "required":false,
           "type":"string"
         },
         "issue_mail":{
-          "description":"A seperate email address for issue reports (see the <em>issue_report_channels<\/em> field). This value can be Base64-encoded.",
+          "description":"A separate email address for issue reports (see the <em>issue_report_channels<\/em> field). This value can be Base64-encoded.",
           "required":false,
           "type":"string"
         }
