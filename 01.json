@@ -48,7 +48,7 @@
       }
     },
     "LANfed":{
-      "description":"A flag indicating if the LAN uses LANFED, a federated login scheme so that visiting hackers can use the LAN WiFi with their home LAN credentials.",
+      "description":"A flag indicating if the LAN uses LANFED, a federated login scheme so that visiting gamers can use the LAN WiFi with their home LAN credentials.",
       "required":false,
       "type":"object",
       "properties":{
