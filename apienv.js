@@ -52,7 +52,7 @@ $(document).ready(function () {
       }
     },
     "LANfed":{
-      "description":"A flag indicating if the LAN uses LANFED, a federated login scheme so that visiting hackers can use the LAN WiFi with their home LAN credentials.",
+      "description":"A flag indicating if the LAN uses LANFED, a federated login scheme so that visiting gamers can use the LAN WiFi with their home LAN credentials.",
       "required":false,
       "type":"object",
       "properties":{
@@ -160,7 +160,7 @@ $(document).ready(function () {
         "type":"object",
         "properties":{
           "name":{
-            "description":"Name or other identity of the subject (e.g. <samp>J. Random Hacker<\/samp>, <samp>fridge<\/samp>, <samp>3D printer<\/samp>, \u2026)",
+            "description":"Name or other identity of the subject (e.g. <samp>J. Random gamer<\/samp>, <samp>fridge<\/samp>, <samp>3D printer<\/samp>, \u2026)",
             "required":true,
             "type":"string"
           },
@@ -470,7 +470,7 @@ $(document).ready(function () {
                     "type":"number"
                   },
                   "conversion_factor":{
-                    "description":"The conversion from the <em>cpm<\/em> unit to another unit hardly depends on your tube type. See the description of the value field to see how to use the conversion factor. <strong>Note:<\/strong> only trust your manufacturer if it comes to the actual factor value. The internet seems <a rel=\"nofollow\" href=\"http:\/\/sapporohibaku.wordpress.com\/2011\/10\/15\/conversion-factor\/\" target=\"_blank\">full of wrong copy & pastes<\/a>, don't even trust your neighbour hackerLAN. If in doubt ask the tube manufacturer.",
+                    "description":"The conversion from the <em>cpm<\/em> unit to another unit hardly depends on your tube type. See the description of the value field to see how to use the conversion factor. <strong>Note:<\/strong> only trust your manufacturer if it comes to the actual factor value. The internet seems <a rel=\"nofollow\" href=\"http:\/\/sapporohibaku.wordpress.com\/2011\/10\/15\/conversion-factor\/\" target=\"_blank\">full of wrong copy & pastes<\/a>, don't even trust your neighbour gamerLAN. If in doubt ask the tube manufacturer.",
                     "required":false,
                     "type":"number"
                   },
@@ -522,7 +522,7 @@ $(document).ready(function () {
                     "type":"number"
                   },
                   "conversion_factor":{
-                    "description":"The conversion from the <em>cpm<\/em> unit to another unit hardly depends on your tube type. See the description of the value field to see how to use the conversion factor. <strong>Note:<\/strong> only trust your manufacturer if it comes to the actual factor value. The internet seems <a rel=\"nofollow\" href=\"http:\/\/sapporohibaku.wordpress.com\/2011\/10\/15\/conversion-factor\/\" target=\"_blank\">full of wrong copy & pastes<\/a>, don't even trust your neighbour hackerLAN. If in doubt ask the tube manufacturer.",
+                    "description":"The conversion from the <em>cpm<\/em> unit to another unit hardly depends on your tube type. See the description of the value field to see how to use the conversion factor. <strong>Note:<\/strong> only trust your manufacturer if it comes to the actual factor value. The internet seems <a rel=\"nofollow\" href=\"http:\/\/sapporohibaku.wordpress.com\/2011\/10\/15\/conversion-factor\/\" target=\"_blank\">full of wrong copy & pastes<\/a>, don't even trust your neighbour gamerLAN. If in doubt ask the tube manufacturer.",
                     "required":false,
                     "type":"number"
                   },
@@ -574,7 +574,7 @@ $(document).ready(function () {
                     "type":"number"
                   },
                   "conversion_factor":{
-                    "description":"The conversion from the <em>cpm<\/em> unit to another unit hardly depends on your tube type. See the description of the value field to see how to use the conversion factor. <strong>Note:<\/strong> only trust your manufacturer if it comes to the actual factor value. The internet seems <a rel=\"nofollow\" href=\"http:\/\/sapporohibaku.wordpress.com\/2011\/10\/15\/conversion-factor\/\" target=\"_blank\">full of wrong copy & pastes<\/a>, don't even trust your neighbour hackerLAN. If in doubt ask the tube manufacturer.",
+                    "description":"The conversion from the <em>cpm<\/em> unit to another unit hardly depends on your tube type. See the description of the value field to see how to use the conversion factor. <strong>Note:<\/strong> only trust your manufacturer if it comes to the actual factor value. The internet seems <a rel=\"nofollow\" href=\"http:\/\/sapporohibaku.wordpress.com\/2011\/10\/15\/conversion-factor\/\" target=\"_blank\">full of wrong copy & pastes<\/a>, don't even trust your neighbour gamerLAN. If in doubt ask the tube manufacturer.",
                     "required":false,
                     "type":"number"
                   },
@@ -626,7 +626,7 @@ $(document).ready(function () {
                     "type":"number"
                   },
                   "conversion_factor":{
-                    "description":"The conversion from the <em>cpm<\/em> unit to another unit hardly depends on your tube type. See the description of the value field to see how to use the conversion factor. <strong>Note:<\/strong> only trust your manufacturer if it comes to the actual factor value. The internet seems <a rel=\"nofollow\" href=\"http:\/\/sapporohibaku.wordpress.com\/2011\/10\/15\/conversion-factor\/\" target=\"_blank\">full of wrong copy & pastes<\/a>, don't even trust your neighbour hackerLAN. If in doubt ask the tube manufacturer.",
+                    "description":"The conversion from the <em>cpm<\/em> unit to another unit hardly depends on your tube type. See the description of the value field to see how to use the conversion factor. <strong>Note:<\/strong> only trust your manufacturer if it comes to the actual factor value. The internet seems <a rel=\"nofollow\" href=\"http:\/\/sapporohibaku.wordpress.com\/2011\/10\/15\/conversion-factor\/\" target=\"_blank\">full of wrong copy & pastes<\/a>, don't even trust your neighbour gamerLAN. If in doubt ask the tube manufacturer.",
                     "required":false,
                     "type":"number"
                   },
@@ -1032,12 +1032,12 @@ $(document).ready(function () {
                 "type":"string"
               },
               "name":{
-                "description":"Give this sensor a name if necessary at all. Use the location field for the rooms. This field is not intended to be used for names of hackerLAN members. Use the field 'names' instead.",
+                "description":"Give this sensor a name if necessary at all. Use the location field for the rooms. This field is not intended to be used for names of gamerLAN members. Use the field 'names' instead.",
                 "required":false,
                 "type":"string"
               },
               "names":{
-                "description":"List of hackerLAN members that are currently at the LAN.",
+                "description":"List of gamerLAN members that are currently at the LAN.",
                 "required":false,
                 "type":"array",
                 "items":{
@@ -1176,7 +1176,7 @@ $(document).ready(function () {
             "type":"string"
           },
           "url":{
-            "description":"The stream URL which must end in a filename or a semicolon such as <br><ul><li>http:\/\/signal.hackerLANs.org:8090\/signal.mp3<\/li><li>http:\/\/85.214.64.213:8060\/;<\/ul>",
+            "description":"The stream URL which must end in a filename or a semicolon such as <br><ul><li>http:\/\/signal.gamerLANs.org:8090\/signal.mp3<\/li><li>http:\/\/85.214.64.213:8060\/;<\/ul>",
             "required":true,
             "type":"string"
           },
