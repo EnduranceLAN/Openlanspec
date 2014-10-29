@@ -20,10 +20,30 @@
       "type":"string",
       "required":true
     },
+    "games":{
+      "description":"What Games do you play?",
+      "required":true,
+      "type":"string"
+	},
     "url":{
       "description":"URL to your LAN's website",
       "required":true,
       "type":"string"
+	},
+    "next_lan":{
+      "description":"When is your next LAN?",
+      "required":true,
+      "type":"string"
+	},
+    "minimum_age":{
+      "description":"What is your age cut off for lanners?",
+      "required":true,
+      "type":"string"
+	},
+    "capacity":{
+      "description":"What's your LANs capacity?",
+      "required":true,
+      "type":"string"  
     },
     "location":{
       "description":"Position data such as a postal address or geographic coordinates",
@@ -292,12 +312,12 @@
           "type":"string"
         },
         "jabber":{
-          "description":"A public Jabber\/XMPP multi-user chatroom in the form <samp>chatroom@conference.example.net<\/samp>",
+          "description":"A public Jabber\/XMPP multi-user chat room in the form <samp>chatroom@conference.example.net<\/samp>",
           "required":false,
           "type":"string"
         },
         "issue_mail":{
-          "description":"A seperate email address for issue reports (see the <em>issue_report_channels<\/em> field). This value can be Base64-encoded.",
+          "description":"A separate email address for issue reports (see the <em>issue_report_channels<\/em> field). This value can be Base64-encoded.",
           "required":false,
           "type":"string"
         }
@@ -968,7 +988,7 @@
                 ]
               },
               "location":{
-                "description":"If you have more than one wan link, you can specifity where this one is.",
+                "description":"If you have more than one wan link, you can specificity where this one is.",
                 "required":false,
                 "type":"string"
               },
